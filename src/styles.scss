@@ -2,3 +2,67 @@
 @import 'colors';
 @import 'fonts';
 @import 'variables';
+
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: $main-font-size;
+  background: $main-background-color;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: $mobile-width;
+  margin: 0 auto;
+}
+
+.section-qr-code {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.qr-code {
+  margin: 0 2rem;
+  padding: 1rem;
+  background-color: $secondary-background-color;
+  border-radius: $border-radius;
+}
+
+.qr-code__image {
+  height: auto;
+  margin-bottom: $main-margin-bottom-gap;
+  border-radius: $border-radius;
+}
+
+.qr-code__title,
+.qr-code__subtitle {
+  text-align: center;
+  color: $main-font-color;
+  margin-bottom: $main-margin-bottom-gap;
+  padding: 0 1rem;
+}
+
+.qr-code__title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.qr-code__subtitle {
+  color: $secondary-font-color;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: #{$desktop-width}) {
+  .container {
+    max-width: $desktop-width;
+  }
+
+  .qr-code {
+    max-width: 17vw;
+  }
+}
