@@ -20,12 +20,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](./screenshot.png)
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+This screenshot is the desktop version of the project. Screenshot on a 1920x1080 monitor with FireFox.
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
