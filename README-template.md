@@ -24,7 +24,7 @@ This screenshot is the desktop version of the project. Screenshot on a 1920x1080
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Github Pages](https://swcoll2010.github.io/mentor-qr-code-component-main/)
 
 ## My process
 
